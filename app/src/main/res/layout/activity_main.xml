@@ -7,18 +7,115 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="phone"
-        android:id="@+id/etOtp"
-        />
-
-    <Button
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            >
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/etusername"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:hint="Email"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/etemail"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:hint="Mobile No."
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/etmob"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/etpass"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SendOtp"
-        android:id="@+id/btnOtp"
-         />
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:id="@+id/btnOtp"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
