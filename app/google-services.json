@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1033879999203",
+    "firebase_url": "https://firestoredemo-c2222.firebaseio.com",
+    "project_id": "firestoredemo-c2222",
+    "storage_bucket": "firestoredemo-c2222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033879999203:android:8ec09c44a26581b823abd6",
+        "android_client_info": {
+          "package_name": "com.example.railoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFC7PExUqWRrKqIqPoSjJXCRlgE-pyYYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033879999203:android:67fb549a587e346b23abd6",
+        "android_client_info": {
+          "package_name": "com.example.signuptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFC7PExUqWRrKqIqPoSjJXCRlgE-pyYYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033879999203:android:95745b514934fcf323abd6",
+        "android_client_info": {
+          "package_name": "com.example.traincrossinglocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFC7PExUqWRrKqIqPoSjJXCRlgE-pyYYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033879999203-oc7qiqtmg3rv9a5kpvultm87dasl9eqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
