@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         etOtp=findViewById(R.id.etOtp);
         btnOtp=findViewById(R.id.btnOtp);
 
+        btnOtp.setOnClickListener(this);
+
         mAuth=FirebaseAuth.getInstance();
 
 

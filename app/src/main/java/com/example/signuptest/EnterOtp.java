@@ -35,6 +35,8 @@ public class EnterOtp extends AppCompatActivity implements View.OnClickListener 
         submit=findViewById(R.id.submit);
         enterOtp=findViewById(R.id.enterOtp);
 
+        submit.setOnClickListener(this);
+
         Bundle bundle=getIntent().getExtras();
         verificationId=bundle.getString("id");
         mAuth=FirebaseAuth.getInstance();
